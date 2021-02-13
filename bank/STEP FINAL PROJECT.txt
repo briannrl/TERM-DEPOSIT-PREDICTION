@@ -1,0 +1,12 @@
+Handling nan value
+1. job : impute
+2. education : impute
+3. contact : impute
+4. poutcome : a. predict nan value pakai klasifikasi
+	      b. drop kolom
+	      c. drop row untuk setiap poutcome = nan
+
+
+yang udah dilakuin:
+1. ganti semua unknown dengan np.nan
+2. tambah kolom 'year'
